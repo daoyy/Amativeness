@@ -953,7 +953,7 @@ add_action('init', 'remove_emoji9s');
 function my_enqueue_scripts()
 {
     wp_deregister_script('jquery');
-    wp_register_script('jquery', ("https://diygod.b0.upaiyun.com/jquery.min.js"), false);
+    wp_register_script('jquery', ("https://static-dyy.b0.upaiyun.com/jquery/jquery-3.1.1.min.js"), false);
     wp_enqueue_script('jquery');
 }
 
@@ -985,7 +985,7 @@ add_action('comment_post', 'comment_mail_notify');
 
 // gravatar 镜像
 function qiniu_avatar($avatar) {
-    $avatar = str_replace(array("www.gravatar.com","0.gravatar.com","1.gravatar.com","2.gravatar.com","secure.gravatar.com","cn.gravatar.com"),"gravatar2333.b0.upaiyun.com",$avatar);
+    $avatar = str_replace(array("www.gravatar.com","0.gravatar.com","1.gravatar.com","2.gravatar.com","secure.gravatar.com","cn.gravatar.com"),"sdn.geekzu.org",$avatar);
     return $avatar;
 }
 add_filter( 'get_avatar', 'qiniu_avatar', 10, 3 );
