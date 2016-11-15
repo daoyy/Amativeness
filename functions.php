@@ -953,7 +953,7 @@ add_action('init', 'remove_emoji9s');
 function my_enqueue_scripts()
 {
     wp_deregister_script('jquery');
-    wp_register_script('jquery', ("https://static-dyy.b0.upaiyun.com/jquery/jquery-3.1.1.min.js"), false);
+    wp_register_script('jquery', ("https://static-dyy.b0.upaiyun.com/jquery/jquery.min.js"), false);
     wp_enqueue_script('jquery');
 }
 
