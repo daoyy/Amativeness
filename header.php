@@ -94,7 +94,7 @@
                     style="color: #009925;">the</span> <span style="color: #d50f25;">World.</span></a></h2>
     </div>
     <div class="xm">
-        <img src="https://diygod.b0.upaiyun.com/xm.png">
+        <img src="https://dyy-file.b0.upaiyun.com/xm.png">
     </div>
     <div class="container" id="content">
         <div class="article-list">
